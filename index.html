@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Monk's Cafe</title>
+   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">    
+   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">  
+   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">    
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>Monk's Cafe</h1>
+   <h2>"The Coffee Shop"</h2>
+   <img src="toms-restaurant.jpg">
+   <div id="MakeaReservation">
+           <h4>Reservations</h4>
+           <section>
+               <h3>Make a Reservation</h3>
+               <form>
+                   <input type="Name" placeholder="Name">
+                   <input type="text" placeholder="Day">
+                   <button>Confirm Reservation</button>
+               </form>
+           
+           <br><br>
+
+            <table>
+             <tr><h3>Existing Reservations</h3></tr>
+             <tr>
+              <th>Name</th>
+              <th>Day</th>
+              </tr>
+            <tr>
+              <td>[ form data will publish here ]</td> 
+              <td>[ form data will publish here ]</td> 
+            </tr>
+            </table>
+
+   </div>
+   <div id="ComeDinewithUs">
+           <h3>Come Dine with Us!</h3>
+
+           <div id="map" style="height: 300px; width:100%"></div>
+  </div>
+
+   <div id="CustomerReviews">
+          <h3>Customer Reviews</h3>
+          <img src="jerry.jpg">
+          <blockquote>“Big lettuce, big carrots, tomatoes like volleyballs.”
+                     — Jerry Seinfeld, on The BIG Salad
+        </blockquote>
+
+   </div>
+
+   <script src="js/jquery-3.2.0.min.js"></script>
+   <script src="main.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2i_o7E7QwHATfgLScE7oZ09FpWF4Q4Hw&callback=initMap" async defer></script>
+
+</body>
+</html>
